@@ -16,7 +16,7 @@ call plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
 
 
-Plug 'Lokaltog/vim-powerline'
+Plug 'Lokaltog/vim-powerline', { 'branch': 'develop' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
